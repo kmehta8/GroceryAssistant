@@ -1,0 +1,14 @@
+{
+    "name": "GroceryAssistant",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "com.unarin.cordova.beacon": "git+https://github.com/petermetz/cordova-plugin-ibeacon.git",
+        "cordova-plugin-device": "^2.0.3"
+    },
+    "cordova": {
+        "plugins": {
+            "com.unarin.cordova.beacon": {}
+        }
+    }
+}
